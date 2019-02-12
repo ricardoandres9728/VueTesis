@@ -9,17 +9,6 @@
 
         <!-- begin login -->
         <div class="login login-v2" data-pageload-addclass="animated fadeIn">
-            <!-- begin brand -->
-            <div class="login-header">
-                <div class="brand">
-                    <span class="logo"></span> <b>Color</b> Admin
-                    <small>responsive bootstrap 3 admin template</small>
-                </div>
-                <div class="icon">
-                    <i class="fa fa-lock"></i>
-                </div>
-            </div>
-            <!-- end brand -->
             <!-- begin login-content -->
             <div class="login-content">
                 <form v-on:submit="checkForm" method="POST" class="margin-bottom-0">
@@ -28,12 +17,6 @@
                     </div>
                     <div class="form-group m-b-20">
                         <input v-model="usuario.password" type="password" class="form-control form-control-lg" placeholder="Password" required />
-                    </div>
-                    <div class="checkbox checkbox-css m-b-20">
-                        <input type="checkbox" id="remember_checkbox" />
-                        <label for="remember_checkbox">
-                            Remember Me
-                        </label>
                     </div>
                     <div class="login-buttons">
                         <button type="submit" class="btn btn-success btn-block btn-lg">Sign me in</button>

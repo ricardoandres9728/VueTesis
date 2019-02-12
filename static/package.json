@@ -19,6 +19,7 @@
     "flag-icon-css": "^3.0.0",
     "ionicons": "^4.4.3",
     "moment": "^2.24.0",
+    "require": "^2.4.20",
     "simple-line-icons": "^2.4.1",
     "v-autocomplete": "^1.8.2",
     "vee-validate": "^2.1.7",

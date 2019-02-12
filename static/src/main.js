@@ -40,7 +40,7 @@ import './assets/css/style.css'
 
 import App from './App.vue'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 Vue.use(VueX)
 Vue.use(VueRouter)
@@ -53,18 +53,18 @@ Vue.use(Loading, {
     backgroundColor: 'black',
     opacity: 0.5,
 });
-Vue.use(VueBootstrap)
-Vue.use(Vueditor)
-Vue.use(VueHljs)
-Vue.use(VueSweetalert2)
-Vue.use(VueNotification)
-Vue.use(VuePanel)
-Vue.use(VueGoodTable)
+Vue.use(VueBootstrap);
+Vue.use(Vueditor);
+Vue.use(VueHljs);
+Vue.use(VueSweetalert2);
+Vue.use(VueNotification);
+Vue.use(VuePanel);
+Vue.use(VueGoodTable);
 Vue.use(VueInsProgressBar, {
   position: 'fixed',
   show: true,
   height: '3px'
-})
+});
 Vue.component('v-select', VueSelect);
 Vue.component('input-tag', VueInputTag);
 
