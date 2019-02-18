@@ -31,6 +31,7 @@ import 'flag-icon-css/css/flag-icon.min.css'
 import 'bootstrap-social/bootstrap-social.css'
 import 'ionicons/dist/css/ionicons.min.css'
 import 'vue-good-table/dist/vue-good-table.css'
+import 'vue-loading-overlay/dist/vue-loading.css';
 
 // color admin css
 import './assets/css/apple/style.min.css'

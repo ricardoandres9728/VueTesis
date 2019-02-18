@@ -96,10 +96,11 @@
                 axios({
                     method: 'POST',
                     data: this.usuario,
-                    url: '/membresia/btc',
+                    url: '/login',
                 }).then((respuesta) => {
+                    console.log(respuesta);
                     loader.hide();
-                    this.$router.push({ path: '/home'})
+                    //this.$router.push({ path: '/home'})
                 });
 
             },
