@@ -11,7 +11,7 @@
   "dependencies": {
     "@agametov/vueditor": "^0.4.1",
     "@xkeshi/vue-countdown": "^1.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.1.3",
     "bootstrap-social": "^5.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
